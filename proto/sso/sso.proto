@@ -16,7 +16,7 @@ service Auth{
   }
 
   message RegisterResponse{
-    int64 id_user = 1;
+    int64 id_user = 1; //ID созданного пользователя
   }
 
 
